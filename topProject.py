@@ -159,8 +159,8 @@ def ConverterCities(text):
 import telebot
 
 from telebot import types
-
-bot = telebot.TeleBot('5117703789:AAELu03aOFNb3w3eRYGKCRFpstj87KragoM')
+Token = '5117703789:AAELu03aOFNb3w3eRYGKCRFpstj87KragoM'
+bot = telebot.TeleBot(Token)
 
 # --------------------------------------------------------------------
 #print(Get_all_doctors('кропоткин', part))
